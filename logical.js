@@ -19,7 +19,7 @@ function value(a,b) {
 	} else if (result > 0) {
 	console.log('The result is above zero');
 	} else {
-		if (isNaN(a) || isNaN(b)) == true {
+		if (isNaN(a) || isNaN(b)) {
 			console.log('You have not entered the valid number');
 		} else {
 			console.log('It seems the result is equal to 0!');
